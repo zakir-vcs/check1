@@ -1,7 +1,7 @@
 // server/server.js
 import express from 'express';
 import nodemailer from 'nodemailer';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import cors from 'cors';
 import fs from 'fs';
 import path from 'path';
